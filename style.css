@@ -1,0 +1,37 @@
+.parent-slider-container {
+    background-image: url(./images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(230, 100%, 99%);
+    height: 100vh;
+}
+
+.slider-container {
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    height: 325px;
+    width: 414px;
+    top: 330px;
+    left: 500px;
+}
+
+.heading-container {
+    background-image: url(./images/pattern-circles.svg);
+    background-position: center;
+    height: 145px;
+    width: 414px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+.text-center {
+    text-align: center;
+}
+.text-subtitle {
+    font-size: 15px;
+    color: hsl(225, 20%, 60%)
+}
+
+.title-text {
+    color: hsl(227, 35%, 25%);
+}
