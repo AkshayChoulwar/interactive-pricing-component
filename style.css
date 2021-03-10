@@ -8,6 +8,10 @@
 .slider-container {
     position: absolute;
     background-color: hsl(0, 0%, 100%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     height: 325px;
     width: 414px;
     top: 330px;
@@ -29,9 +33,33 @@
 }
 .text-subtitle {
     font-size: 15px;
-    color: hsl(225, 20%, 60%)
+    color: hsl(225, 20%, 60%);
+    margin-top: 5px;
 }
 
 .title-text {
     color: hsl(227, 35%, 25%);
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+input[type='range'] {
+    width: 100%;
+}
+
+.page-views {
+    float: left;
+}
+
+.price-value {
+    float: right;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.price-value > span {
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: lighter;
+    float: right;
 }

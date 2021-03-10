@@ -21,9 +21,25 @@
       <h6 class="text-center text-subtitle">Sign up for our 30 day trial. No credit card required.</h6>
     </div>
     <div class="slider-container">
+      <span class="page-views" id="pageview-value">100K PAGEVIEWS</span>
+      <span class="price-value" id="pageview-price">$16.00 <span>/month</span></span>
+      <input type="range" min="8" max="36" id="range-input" value="16" />
     </div>
   </div>
 
+  <script>
+    const inputPriceRangeEl = document.getElementById("range-input");
+    const priceValueEl = document.getElementById("pageview-price");
+    const pageValueEl = document.getElementById("pageview-value");
+
+    inputPriceRangeEl.addEventListener('input', (event) => {
+      priceValueEl.innerHTML = `$${event.target.value}`;
+      const spanEl = document.createElement('span');
+      spanEl.innerText = "/month";
+      priceValueEl.appendChild(spanEl);
+    });
+
+  </script>
 </body>
 
 </html>
