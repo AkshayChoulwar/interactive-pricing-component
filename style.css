@@ -45,10 +45,12 @@
 
 input[type='range'] {
     width: 100%;
+    margin-top: 25px;
 }
 
 .page-views {
     float: left;
+    margin-top: 10px;
 }
 
 .price-value {
@@ -106,4 +108,14 @@ input[type=range]::-webkit-slider-thumb {
   height: 30px;
   border-radius: 50%;
   margin-top: -11px;
+}
+
+input[type=range]::-webkit-slider-thumb:focus {
+    background-color: red;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 6px 10px 6px -6px #777;
+     -moz-box-shadow: 6px 10px 6px -6px #777;
+          box-shadow: 6px 10px 6px -6px #777;
 }
